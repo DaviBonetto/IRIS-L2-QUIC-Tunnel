@@ -1,1 +1,1 @@
-﻿fn main() {}
+﻿mod config; fn main() {}
