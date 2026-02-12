@@ -5,3 +5,9 @@ edition="2021"
 
 [dependencies]
 iris-common={path="../iris-common"}
+
+quinn="0.10"
+tokio={version="1",features=["full"]}
+anyhow="1.0"
+tracing="0.1"
+tracing-subscriber="0.3"
