@@ -1,0 +1,3 @@
+﻿[workspace]
+members = ["iris-server", "iris-client", "iris-common"]
+resolver = "2"
