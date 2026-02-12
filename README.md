@@ -1,15 +1,15 @@
 ﻿<div align="center">
 
 ```
-  â–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—
-  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â•â•â•
-  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—
-  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘â•šâ•â•â•â•â–ˆâ–ˆâ•‘
-  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘
-  â•šâ•â•â•šâ•â•  â•šâ•â•â•šâ•â•â•šâ•â•â•â•â•â•â•
+  ██╗██████╗ ██╗███████╗
+  ██║██╔══██╗██║██╔════╝
+  ██║██████╔╝██║███████╗
+  ██║██╔══██╗██║╚════██║
+  ██║██║  ██║██║███████║
+  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝
 ```
 
-### ðŸ›¡ï¸ System 14/300 â€” High-Performance QUIC Tunnel
+### System 14/300 - High-Performance QUIC Tunnel
 
 [![Rust](https://img.shields.io/badge/Rust-1.75+-000000?style=flat-square&logo=rust&logoColor=white)](https://www.rust-lang.org/)
 [![QUIC](https://img.shields.io/badge/Protocol-QUIC-blue?style=flat-square)](https://quicwg.org/)
@@ -21,16 +21,16 @@
 
 ---
 
-## ðŸ“– What is IRIS?
+## What is IRIS?
 
 IRIS is a Layer 2 tunneling simulation using **QUIC (Quick UDP Internet Connections)**.
 It demonstrates:
 
-- ðŸš€ **Zero-RTT** connection establishment.
-- ðŸ”’ **TLS 1.3** integration with self-signed certificates.
-- ðŸ“¡ **Multiplexed Streams** over a single UDP connection.
+- **Zero-RTT** connection establishment.
+- **TLS 1.3** integration with self-signed certificates.
+- **Multiplexed Streams** over a single UDP connection.
 
-## ðŸš€ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -49,18 +49,20 @@ cd IRIS-L2-QUIC-Tunnel
 We have included a verified simulation script to test the tunnel:
 
 **PowerShell (Windows)**
+
 ```powershell
 ./simulate_v2.ps1
 ```
 
 **Bash (Linux/macOS)**
+
 ```bash
 # You may need to grant execution permissions
 chmod +x simulate_tunnel.sh
 ./simulate_tunnel.sh
 ```
 
-## ðŸ—ï¸ Architecture
+## Architecture
 
 ```mermaid
 sequenceDiagram
@@ -74,6 +76,6 @@ sequenceDiagram
     C->>S: Close Stream
 ```
 
-## ðŸ“„ License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
