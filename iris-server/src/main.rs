@@ -6,7 +6,7 @@ use tracing::{info, error};
 async fn handle(conn: Connection) {
     info!("Connected: {}", conn.remote_address());
     while let Ok((mut send, mut recv)) = conn.accept_bi().await {
-        let _ = recv.read_to_end(1024*64).await.map(|d| info!("Received: {:?}", String::from_utf8_lossy(&d)));
+        let _ = recv.read_to_end(1024*128).await.map(|d| info!("Received: {:?}", String::from_utf8_lossy(&d)));
         let _ = send.write_all(b"Ack").await;
         let _ = send.finish().await;
     }
