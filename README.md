@@ -30,7 +30,7 @@ It demonstrates:
 - **TLS 1.3** integration with self-signed certificates.
 - **Multiplexed Streams** over a single UDP connection.
 
-## Getting Starte
+## Getting Started
 
 ### Prerequisites
 
